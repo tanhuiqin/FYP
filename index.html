@@ -137,14 +137,6 @@
               <span class='title'>Homepage</span>
             </a>
           </li>
-          <li class='nav-item'>
-            <a class='sidebar-link' href='charts.html'>
-              <span class='icon-holder'>
-                <i class='c-indigo-500 ti-bar-chart'></i>
-              </span>
-              <span class='title'>Dashboard</span>
-            </a>
-          </li>
         </ul>
       </div>
     </div>
@@ -167,153 +159,9 @@
       <!-- ### $App Screen Content ### -->
       <main class='main-content bgc-grey-100'>
         <div id='mainContent'>
-          <div class='row gap-20 masonry pos-r'>
-            <div class='masonry-sizer col-md-6'></div>
-            <div class='masonry-item  w-100'>
-              <div class='row gap-20'>
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 1 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5" id='sensor1'></h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="row gap-20 masonry pos-r">
 
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 2 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">34</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 3 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">56</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 4 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">78</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class='masonry-item  w-100'>
-              <div class='row gap-20'>
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 5 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">12</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 6 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">34</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 7 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">56</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class='col-md-3'>
-                  <div class='layers bd bgc-white p-20'>
-                    <div class='layer w-100 mB-10'>
-                      <h6 class='lh-1'>Sensor 8 Reading</h6>
-                    </div>
-                    <div class='layer w-100'>
-                      <div class='peers ai-sb fxw-nw'>
-                        <div class='peer peer-greed'>
-                          <h5 class="mB-5">78</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
             <div class='masonry-item col-md-12'>
-              <!-- #Monthly Stats ==================== -->
-              <div class='bd bgc-white'>
-                <div class='layers'>
-                  <div class='layer w-100 pX-20 pT-20'>
-                    <h6 class='lh-1'>Monthly Stats</h6>
-                  </div>
-                  <div class='layer w-100 p-20'>
-                    <canvas id='line-chart' height='220'></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class='masonry-item col-md-6'>
               <!-- #Monthly Stats ==================== -->
               <div class='bd bgc-white'>
                 <div class='layers'>
@@ -321,40 +169,243 @@
                     <h6 class='lh-1'>Toilet Floor Plan</h6>
                   </div>
                   <div class='layer w-100 p-20'>
-                    <img src='assets/static/images/floor plan.jpg' height='400'>
+                    <img src='assets/static/images/floor plan.jpg' height='750'>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class='masonry-item col-md-6'>
-              <!-- #Monthly Stats ==================== -->
-              <div class='bd bgc-white'>
-                <div class='layers'>
-                  <div class='layer w-100 pX-20 pT-20'>
-                    <h6 class='lh-1'>Alerts</h6>
+            <div class='masonry-sizer col-md-6'></div>
+            <div class='masonry-item  w-100'>
+              <div class='row gap-20'>
+              
+                
+                
+                
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-danger">No. of times infrared sensor being triggered</div>
+                </div>
+              </div>
+
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-danger">Duration of infrared sensor being triggered (in mins)</div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Infrared sensor triggrered in the last hour</h6>
                   </div>
-                  <div class="list-group w-100 p-20">
-                    <a href="#" class="list-group-item list-group-item-action disabled">You have 0 warning(s)</a>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading1'></h5>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-                    
-            
-            
-            
-          </div>
-        </div>
-      </main>
 
-      <!-- ### $App Screen Footer ### -->
-      <footer class='bdT ta-c p-30 lh-0 fsz-sm c-grey-600'>
-        <span>Copyright © 2019 Designed by <a href='https://colorlib.com' target='_blank' title='Colorlib'>Colorlib</a>.
-          All rights reserved.</span>
-      </footer>
-    </div>
-  </div>
-</body>
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Infrared sensor triggrered in the last 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading2'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Infrared sensor duration in the last hour</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading3'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Infrared sensor duration in the last 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading4'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-warning">Cubicle 1</div>
+                </div>
+              </div>
+
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-warning">Cubicle 2</div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>No. of visit in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading5'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Avg. duration of usage in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading6'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>No. of visit in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading7'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Avg. duration of usage in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading8'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-warning">Cubicle 3</div>
+                </div>
+              </div>
+
+              <div class='col-md-6'>
+                <div class="mT-30">
+                  <div class="alert alert-warning">Cubicle 4</div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>No. of visit in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading9'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Avg. duration of usage in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading10'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>No. of visit in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading11'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class='col-md-3'>
+                <div class='layers bd bgc-white p-20'>
+                  <div class='layer w-100 mB-10'>
+                    <h6 class='lh-1'>Avg. duration of usage in the past 24 hours</h6>
+                  </div>
+                  <div class='layer w-100'>
+                    <div class='peers ai-sb fxw-nw'>
+                      <div class='peer peer-greed'>
+                        <h5 class="mB-5" id='reading12'></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+
+              </div>
+            </div>
+
+            
+
 
 </html>
