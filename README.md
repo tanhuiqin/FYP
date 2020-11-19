@@ -1,5 +1,5 @@
 # Sensor Firmware
-All folders (expect Dahsboard) contain firmware for each sensor type. For more instructions on how to flash the firmware into the microcontroller, refer to documentation from Mongoose OS given in this link: https://mongoose-os.com/docs/mongoose-os/quickstart/setup.md.
+All folders (expect Dashboard) contain firmware for each sensor type. For more instructions on how to flash the firmware into the microcontroller, refer to documentation from Mongoose OS given in this link: https://mongoose-os.com/docs/mongoose-os/quickstart/setup.md.
 <br />
 <br />
 Steps taken to flash firmware into sensor:
